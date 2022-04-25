@@ -1,17 +1,17 @@
 import { useState } from 'react'
 import logo from './logo.svg'
 import './App.css'
-import List from './components/List'
+import List from './components/Table'
 
-function App() {
+function Home() {
   const [count, setCount] = useState(0)
 
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>Hello Vite + React! + Tailwind</p>
-
+        <h2>Hello Vite + React! + Tailwind</h2>
+        <h2>Some examples</h2>
            <List />
         <p>
           <a
@@ -37,4 +37,5 @@ function App() {
   )
 }
 
-export default App
+export default Home
+
