@@ -8,7 +8,7 @@ import {
   Route
 } from "react-router-dom";
 import LoginPage from './components/LoginPage'
-import Home from './App';
+import Home from './Home';
 
 function Places() {
   return (
