@@ -1,8 +1,6 @@
 import React from 'react';
 import { useNavigate } from "react-router-dom";
 
-// import { Container } from './styles';
-
 const LoginPageButton: React.FC = () => {
     let navigate = useNavigate();
   

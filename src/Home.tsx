@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import './App.css'
+import Header from './components/Header'
 import List from './components/Table'
 
 
@@ -21,16 +21,19 @@ function CardUser() {
 }
 
 function Home() {
-  const [count, setCount] = useState(0)
-
+  
   return (
     <div className="App">
-      <header className="App-header">
+      <Header />
+      <body className='App-body'>
+ 
         <CardUser />
-        <h2>Hello Vite + React! + Tailwind</h2>
-        <h2>Some examples</h2>
-           <List />
-        <p>
+        <h2>Some dev Examples</h2>
+        <List />
+      </body>
+      <footer>
+
+      <p>
           <a
             className="App-link"
             href="https://reactjs.org"
@@ -48,8 +51,17 @@ function Home() {
           >
             Vite Docs
           </a>
+          {' | '}
+          <a
+            className="App-link"
+            href="https://tailwindcss.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Tailwind
+          </a>
         </p>
-      </header>
+      </footer>
     </div>
   )
 }

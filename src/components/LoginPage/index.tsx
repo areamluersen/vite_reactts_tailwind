@@ -1,16 +1,17 @@
 import React from 'react';
-
-// import { Container } from './styles';
+import Header from '../Header';
 
 const LoginPage: React.FC = () => {
   return     (
-    <div>
-        <header>
-            <p>Hello Vite + React! + Tailwind</p>
-            <p>
-            TODO - login Page Tripsy
-            </p>
-        </header>
+    <div className='App'>
+        <Header />
+        <body className='App-body'>
+            <>
+                <p>
+                TODO - login Page Tripsy
+                </p>
+            </>
+        </body>
     </div>);
 }
 
