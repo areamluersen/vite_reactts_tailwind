@@ -5,7 +5,7 @@ import List from './components/Table'
 
 function CardUser() {
   return (
-    <div className='bg-gradient-to-r from-slate-500 to-slate-800 p-2 mb-20 rounded-lg grid grid-cols-3'>
+    <div className='bg-gradient-to-r from-gray-800 to-zinc-900 p-2 mb-20 rounded-lg grid grid-cols-3 shadow-lg'>
       <div className='flex justify-start w-40'>
         <img src={'https://avatars.githubusercontent.com/u/24281509?v=4'} className="rounded-full" alt="logo" />
       </div>
