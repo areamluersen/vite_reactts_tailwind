@@ -10,7 +10,7 @@ const RedirectButton = ({name, redirectsTo}: {name: string, redirectsTo: string}
   
     return (
       <button 
-        className="underline underline-offset-2 hover:bg-gray-700 text-white text-xl my-2 mx-4 px-4 rounded-full"
+        className="underline underline-offset-2 hover:text-purple-200 text-[#BB86FC] text-xl my-2 mx-4 px-4 rounded-full"
         type="button" 
         onClick={handleClick}>
         {name}

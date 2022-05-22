@@ -1,5 +1,5 @@
 import React from 'react';
-import LoginPageButton from './LoginPageButton'
+import { RedirectButton } from './RedirectButton';
 
 const Table: React.FC = () => {
 
@@ -15,7 +15,7 @@ const Table: React.FC = () => {
     <tr className='border-b'>
       <td>Login</td>
       <td className='px-10'>Recreate Login Page of Tripsy</td>
-      <LoginPageButton />
+      <RedirectButton name='Login Page' redirectsTo='/login' />
     </tr>
     <tr className='border-b'>
       <td>To-do</td>
