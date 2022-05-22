@@ -6,9 +6,9 @@ const Table: React.FC = () => {
   return <table className="table-auto text-2xl">
   <thead>
     <tr>
-      <th className="rounded-l-2xl bg-slate-500 px-4">Page</th>
-      <th className='bg-slate-500 mx-2'>Description</th>
-      <th className='rounded-r-2xl bg-slate-500 px-4'>Access</th>
+      <th className="rounded-l-2xl bg-dark-850 px-4">Page</th>
+      <th className='bg-dark-850 mx-2'>Description</th>
+      <th className='rounded-r-2xl bg-dark-850 px-4'>Access</th>
     </tr>
   </thead>
   <tbody>
